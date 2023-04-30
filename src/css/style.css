@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+li{
+    list-style: none;
+}
+body {
+    background-color: #FFC0CB;
+    color: white;
+}
+
+
+.header {
+    background-color: #f2acb8;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* SLIDEEEER */
+
+.slideshow-container {
+    padding-top: 70px;
+    max-width: 1150px;
+    position: relative;
+    margin: auto;
+}
+
+.banner .slideshow-container .mySlides img {
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+/* SLIDEEEER ENDS*/
+
+
+/* about content */
+.about {
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-container h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-container h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.about-inner-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-text{
+    padding-top: 10px;
+    width: 550px;
+    font-size: 22px;
+}
+.about-img img{
+    width: 500px;
+    height: 650px;
+    border: 1px solid;
+    border-radius: 40px;
+}
+/* about content end */
+
+/* songs content */
+.songs {
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.songs-container{
+
+}
+.songs-container h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.songs-inner-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.songs-inner-content h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.line {
+    border: 1px solid;
+    color: rgba(239,239,240,0.4);
+    margin-bottom: 20px;
+}
+
+/* songs content end */
+
+/* newsletter */
+.newsletter {
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.newsletter-content{
+    padding-top: 150px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter-content h1{
+    font-size: 44px;
+}
+.newsletter-content h3{
+    padding-top: 15px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.form input{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    height: 50px;
+}
+
+.form button{
+    border: 1px solid white;
+    background-color: aqua;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form button:hover{
+    border: 1px solid white;
+    background-color: aquamarine;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* newsletter ends*/
+
+
+/* footer */
+footer{
+    background-color: #f2acb8;
+}
+.footer-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-nav-items{
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* footer ends */
