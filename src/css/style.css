@@ -13,13 +13,13 @@ li{
     list-style: none;
 }
 body {
-    background-color: #FFC0CB;
+    background-color: #cc92fc;
     color: white;
 }
 
 
 .header {
-    background-color: #f2acb8;
+    background-color: #b365f2;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
 
 .logo {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold;  
 }
 
 /* SLIDEEEER */
@@ -122,10 +122,10 @@ body {
 .about-text{
     padding-top: 10px;
     width: 550px;
-    font-size: 22px;
+    font-size: 20px;
 }
 .about-img img{
-    width: 500px;
+    width: 550px;
     height: 650px;
     border: 1px solid;
     border-radius: 40px;
@@ -179,9 +179,8 @@ body {
 .newsletter-content{
     padding-top: 150px;
     padding-bottom: 40px;
-    display: flex;
+    display: flex;  
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -230,7 +229,7 @@ body {
 
 /* footer */
 footer{
-    background-color: #f2acb8;
+    background-color: #b365f2;
 }
 .footer-container{
     padding-top: 50px;
